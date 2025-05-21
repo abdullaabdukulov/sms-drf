@@ -10,7 +10,6 @@ from .views import (
     VerifyAPIView,
 )
 
-app_name = "user"
 urlpatterns = [
     path("authorize/", AuthorizeAPIView.as_view(), name="authorize"),
     path("verify/", VerifyAPIView.as_view(), name="verify"),
