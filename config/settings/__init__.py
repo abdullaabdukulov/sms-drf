@@ -1,7 +1,6 @@
 import os
-from dotenv import load_dotenv
 
-load_dotenv(os.path.join(BASE_DIR, ".env"))
+from config.load_env import *
 
 django_settings_module = os.environ.get("DJANGO_SETTINGS_MODULE")
 if django_settings_module is not None:
