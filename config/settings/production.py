@@ -4,7 +4,7 @@ ALLOWED_HOSTS = [
     "api.example.com",
     "admin.example.com" "localhost",
     "127.0.0.1",
-    "server_ip_address",
+    "45.92.173.57",
 ]
 CSRF_TRUSTED_ORIGINS = ["https://api.example.com", "https://admin.example.com"]
 CORS_ALLOWED_ORIGINS = ["https://api.example.com", "https://admin.example.com"]
